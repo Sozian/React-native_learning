@@ -78,9 +78,9 @@ const KeyboardExample = () => {
   };
 
   return (
-    <View style={styles.container}>
+    <View style={styles.container_keyBoard}>
       <TextInput
-        style={styles.input}
+        style={styles.input_keyBoard}
         value={inputValue}
         onChangeText={setInputValue} // To allow manual text input
         placeholder="Type here..."
@@ -91,12 +91,12 @@ const KeyboardExample = () => {
 };
 
 const styles = StyleSheet.create({
-  container: {
+  container_keyBoard: {
     flex: 1,
     justifyContent: 'center',
     paddingHorizontal: 20,
   },
-  input: {
+  input_keyBoard: {
     height: 50,
     borderColor: 'gray',
     borderWidth: 1,
