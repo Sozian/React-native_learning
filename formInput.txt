@@ -1,0 +1,8 @@
+  <Text style={{ marginTop: 10, marginStart: 2 }}>Select: select total number of questions</Text>
+                        {/* <TextInput
+                        placeholder="select the total"
+                        style={styles.txt_input}
+                        onChangeText={(text)=>handleAnswerChange(text)}
+                        value={noOfQues}
+                        keyboardType='numeric'
+                    /> */}
